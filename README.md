@@ -1,13 +1,9 @@
 #**Finding Lane Lines on the Road** 
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-
 <img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
 When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
 In this project you will detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
-
-## If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go!   If not, you can install the starter kit or follow the install instructions below to get started on this project. ##
 
 **Step 1:** Getting setup with Python
 
@@ -37,7 +33,7 @@ Once you have Anaconda installed, first double check you are in your Python 3 en
 run the following commands at the terminal prompt to get OpenCV:
 
 `> pip install pillow`  
-`> conda install -c menpo opencv3=3.1.0`
+`> conda install -c https://conda.anaconda.org/menpo opencv3`
 
 then to test if OpenCV is installed correctly:
 
